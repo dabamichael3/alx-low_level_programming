@@ -1,9 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*main - positive and nagative */
-/*description: ' positive and nagative' */
-/*return 0 */
+/**
+ *main - The main function is the entry point of the program.
+ * It executes the necessary operations to determine
+ * if a number is positive or negative.
+ * Return: 0
+ */
 int main(void)
 {int n;
 srand(time(0));
@@ -14,7 +17,7 @@ printf("%d is positive\n", n);
 }
 else if (n == 0)
 {
-printf("%d is nagative\n", n);
+printf("%d is zero\n", n);
 }
 else
 {
