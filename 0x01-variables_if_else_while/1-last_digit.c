@@ -6,8 +6,7 @@
  *integer, calculates the last digit, and prints it.
  * Return: 0 on success
  */
-int main(void)
-{int n;
+int main(void){int n;
 int lastdigit;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
