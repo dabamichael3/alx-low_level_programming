@@ -18,7 +18,7 @@ printf("last degit %d is %d is greater than 5", n, lastdigit);
 }
 else if (lastdigit == 0)
 {
-printf("last degit %d is %d is 0", n, lastdigit);
+printf("last degit of %d is %d and  is 0", n, lastdigit);
 }
 else
 {
