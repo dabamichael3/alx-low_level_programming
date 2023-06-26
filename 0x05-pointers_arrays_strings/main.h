@@ -2,6 +2,7 @@
 #define MAIN_H
 #include <stdio.h>
 #include <unistd.h>
+void print_rev(char *s);
 void _puts(char *str);
 int _strlen(char *s);
 int _putchar(char c);
