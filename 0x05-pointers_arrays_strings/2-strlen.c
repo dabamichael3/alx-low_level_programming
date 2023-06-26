@@ -14,5 +14,4 @@ long++;
 str++;
 }
 return (long);
-
 }
